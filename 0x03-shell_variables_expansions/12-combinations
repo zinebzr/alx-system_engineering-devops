@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "%s/n" {a..b}{a..b} | grep -v "oo"
